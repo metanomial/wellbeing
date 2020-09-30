@@ -1,0 +1,3 @@
+Metanomial.com does not keep any of your data. The Wellbeing Tracker web app does not use a database. All data is stored in the browser.
+
+The Wellbeing Tracker employs Google Drive, a third party platform, to allow for cloud backup. Use of Google Drive is optional at discretion of the user, and falls under the Google Privacy Policy (https://policies.google.com/privacy). If the user does not sign in with Google, no data will ever be sent to Google. If the user does sign in with Google, the user's email address and other person information will never be sent to Metanomial.com.
