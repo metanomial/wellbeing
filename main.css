@@ -1,0 +1,35 @@
+@font-face {
+	font-family: Epilogue;
+	src: url('Epilogue.woff2') format('woff2');
+	font-weight: 100 900;
+}
+
+body {
+	margin: 2rem 1.2rem;
+	font-family: Epilogue;
+	color: snow;
+	background-color: #1C3829;
+}
+
+header {
+	margin-bottom: 2rem;
+}
+
+footer {
+	margin-top: 2rem;
+}
+
+button {
+	font-family: inherit;
+	font-weight: 500;
+	padding: 0.6rem;
+}
+
+#header {
+	display: flex;
+}
+
+#logo {
+	width: 2rem;
+	margin-right: auto;
+}

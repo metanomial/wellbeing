@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang=en>
+	<head>
+		<title>Wellbeing Tracker</title>
+		<meta charset=utf-8>
+		<meta name=viewport content="width = device-width, initial-scale = 1, user-scalable = no">
+		<meta name=theme-color content=#59856D>
+		<link rel=manifest href=app.webmanifest>
+		<link rel=stylesheet href=main.css>
+		<link rel=icon type=image/x-icon href=favicon.ico>
+		<link rel=icon type=image/svg+xml sizes=any href=icon.svg>
+		<link rel=apple-touch-icon sizes=196x196 href=icon.png>
+		<script src=app.js></script>
+		<script async defer src=https://apis.google.com/js/api.js></script>
+	</head>
+	<body>
+		<header id=header>
+			<img id=logo src=icon.svg alt="Wellbeing Tracker">
+			<p id=username></p>
+			<button id=authorize hidden>Sign In</button>
+			<button id=signout hidden>Sign Out</button>
+		</header>
+		<div>
+			<p>How was your day?</p>
+			<button>Good</button>
+			<button>Neutral</button>
+			<button>Bad</button>
+		</div>
+		<details>
+			<summary>Attribution</summary>
+			<p>Wellbeing Tracker 1.0.0 &copy;2020 Benjamin Herman. For use under the <a href=LICENSE.txt target=_blank>MIT License</a>. Source code available on <a href=https://github.com/metanomial/wellbeing target=_blank rel="noreferrer noopener nofollow">GitHub</a>.</p>
+			<p>Epilogue 2.111 &copy;2020 The Epilogue Project Authors. For use under the <a href=Epilogue-OFL.txt target=_blank>SIL Open Font License</a>. Source files available on <a href=https://github.com/Etcetera-Type-Co/Epilogue target=_blank rel="noreferrer noopener nofollow">GitHub</a>.</p>
+		</details>
+	</body>
+</html>

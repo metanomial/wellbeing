@@ -1,0 +1,31 @@
+{
+	"name": "Wellbeing Tracker",
+	"start_url": ".",
+	"display": "standalone",
+	"orientation": "portrait",
+	"lang": "en-US",
+	"theme_color": "#1C6940",
+	"background_color": "#1C3829",
+	"categories": "lifestyle utilities",
+	"description": "Daily wellbeing at-a-glance statistics",
+	"icons": [
+		{
+			"src": "icon.svg",
+			"type": "image/svg+xml",
+			"sizes": "any",
+			"purpose": "any"
+		},
+		{
+			"src": "maskable-icon.svg",
+			"type": "image/svg+xml",
+			"sizes": "any",
+			"purpose": "maskable"
+		},
+		{
+			"src": "icon.png",
+			"type": "image/png",
+			"sizes": "196x196",
+			"purpose": "maskable"
+		}
+	]
+}
